@@ -30,6 +30,6 @@ async function fetchUserData (){
     };   
 };
 
-addEventListener('DOMContentLoaded', function(){
+document.addEventListener('DOMContentLoaded', function(){
     fetchUserData();
 });
